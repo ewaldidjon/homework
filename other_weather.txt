@@ -1,0 +1,5 @@
+current_weather=true
+sudo apt update
+sudo apt install libssl-dev pkg-config
+std::cout << "Температура в данный момент: " << data["current_weather"]["temperature"] << '\n';
+g++ -std=c++11 $(pkg-config --cflags openssl) main_weather.cpp $(pkg-config --libs openssl)

@@ -1,0 +1,26 @@
+{
+    "author": "Aram Drevekenin <grimsniffer@gmail.com>",
+    "license": "MIT",
+    "repositories": {
+      "repository_one": {
+        "Author": "Artem",
+        "type": "git",
+        "url": "git+https://github.com/Artem/synp.git"
+      },
+      "repository_two": {
+        "Author": "Ivan",
+        "type": "git",
+        "url": "git+https://github.com/Ivan/synp.git"
+      },
+      "repository_three": {
+        "Author": "Vika",
+        "type": "git",
+        "url": "git+https://github.com/Vika/synp.git"
+      },
+      "repository_four": {
+        "Author": "Dima",
+        "type": "git",
+        "url": "git+https://github.com/Dima/synp.git"
+      }
+  }
+}
